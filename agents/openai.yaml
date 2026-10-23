@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Kickoff"
+  short_description: "Set up project context, folders, rules, and a diary"
+  default_prompt: "Use $project-kickoff to understand this new project and create its folders, populated AGENTS.md, project guide, and document log."
