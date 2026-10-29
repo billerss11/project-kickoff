@@ -2,11 +2,11 @@
 
 A Codex skill for starting small business projects with clear context, useful folders and practical document control.
 
-It works from a conversation, a few files or an existing collection. When context is missing, it asks focused questions before choosing the setup. It writes three populated documents:
+It works from a conversation, a few files or an existing collection. When context is missing, it asks focused questions before choosing the setup. It writes three concise, populated documents:
 
 | Document | Purpose |
 |---|---|
-| `AGENTS.md` | Project background, objectives and operating rules for future AI sessions. |
+| `AGENTS.md` | Brief project identity and project-specific operating and maintenance rules. |
 | `Project Guide.md` | Current position, folder map, working references and next actions. |
 | `Document Log.md` | A concise diary of material events, decisions and evidence. |
 
@@ -43,6 +43,6 @@ The installed directory is an ordinary Git checkout. Review and commit intention
 git pull --ff-only
 ```
 
-The entry point is [SKILL.md](SKILL.md). Detailed authoring guidance lives in [Governing documents](references/governing-documents.md); conditional filing and management choices live in [Project controls](references/project-controls.md).
+The entry point and core document contracts are in [SKILL.md](SKILL.md). Read only the relevant sections of [Project controls](references/project-controls.md) for complications such as partial revisions, multi-party exchanges and release packages. Current actions belong in the guide, historical decisions in the log, and stable operating rules in AGENTS.md. Link to supporting detail instead of repeating it.
 
 When changing the skill, check behavior on an empty project, a project with limited conflicting source material, and a simple internal project without suppliers. Confirm that it asks useful questions, writes real context, preserves sources and avoids unnecessary records. Validate the frontmatter with the skill-creator validator available in your Codex installation.
