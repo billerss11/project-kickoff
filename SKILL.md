@@ -13,6 +13,16 @@ Use the conversation and relevant project files to establish purpose, the user's
 
 Ask only about consequential gaps. Resolve an unclear purpose, role or outcome before writing; deferred dates, suppliers and technical details can remain explicit unknowns. Briefly state consequential assumptions and proceed when setup is authorized. A request for discussion or a proposed structure does not authorize implementation.
 
+## Ground rule: understand customer specifications before asking
+
+Whenever customer technical documents are supplied, study and understand the applicable specifications, drawings, datasheets, attachments and referenced requirements before preparing a proposal, quotation or customer clarification. Read requirements in context and reconcile related documents; a file inventory or keyword search alone is insufficient.
+
+Never ask the customer to repeat or confirm facts already clearly stated in the supplied material. Resolve questions covered by established engineering knowledge or an applicable industry standard internally. Verify a standard's applicability and edition when needed; do not use assumed practice to override explicit customer requirements or present an uncertain interpretation as fact.
+
+Customer questions are permitted only for genuine gaps, ambiguities or conflicts that remain after this review and materially affect the proposal or quotation, such as scope, technical compliance, selection, price, delivery or contractual commitments. Do not ask irrelevant questions or request detail that can wait without affecting the offer. Keep such unknowns internal.
+
+Before including any customer question, identify the relevant document version and clause, drawing or page reviewed, explain what remains unresolved, and state how the answer changes the offer. Remove questions answered by the documents or established engineering practice. If a needed document is missing or unreadable, identify that limitation; request it only when it materially affects the offer. This rule applies to draft clarification lists as well as messages intended for sending.
+
 ## Set up the working method
 
 Reuse useful conventions, instructions and equivalent records. Choose a few folders for actual or imminent work, such as Received, Working and Issued; an internal project may need only Working. Do not move or rename existing material without authorization, or create empty registers and elaborate folder trees.
@@ -37,6 +47,7 @@ Preserve useful existing instructions and historical meaning. Raise material con
 
 Put these concise maintenance rules in AGENTS.md, adapted to the actual project:
 
+- When customer technical documents are involved, include the specification-review and customer-question restrictions above as enduring project rules in AGENTS.md so later sessions apply them before drafting proposals, quotations or clarifications.
 - Start with the guide; read relevant source sections and log entries only when the task needs them. Link consequential current decisions to their log headings. Do not routinely load the entire diary or archive.
 - After material developments, update affected working records, append a short event entry and refresh the guide only if the current basis, location, status or next action changed. Keep the maintained action list in the guide. Routine reading and formatting need no entry.
 - Track consequences of changed decisions: update authorized outputs and identify remaining affected work. Preserve received and issued originals. Keep partial answers and assumptions distinct from resolved requirements or agreement.
