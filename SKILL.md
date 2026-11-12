@@ -13,15 +13,17 @@ Use the conversation and relevant project files to establish purpose, the user's
 
 Ask only about consequential gaps. Resolve an unclear purpose, role or outcome before writing; deferred dates, suppliers and technical details can remain explicit unknowns. Briefly state consequential assumptions and proceed when setup is authorized. A request for discussion or a proposed structure does not authorize implementation.
 
-## Ground rule: understand customer specifications before asking
+## Ground rule: research technical matters before asking
 
-Whenever customer technical documents are supplied, study and understand the applicable specifications, drawings, datasheets, attachments and referenced requirements before preparing a proposal, quotation or customer clarification. Read requirements in context and reconcile related documents; a file inventory or keyword search alone is insufficient.
+For all technical work and content in the project, research the basis before making technical claims or recommendations, raising concerns, or asking questions. This applies to internal analysis and drafts as well as questions to the user, colleagues, suppliers or customers. Read and reconcile relevant project and customer documents, technical references and applicable industry standards; verify the standards' scope and editions. A file inventory, search snippets or model memory alone do not satisfy this review.
 
-Never ask the customer to repeat or confirm facts already clearly stated in the supplied material. Resolve questions covered by established engineering knowledge or an applicable industry standard internally. Verify a standard's applicability and edition when needed; do not use assumed practice to override explicit customer requirements or present an uncertain interpretation as fact.
+For product-related work, include online research into manufacturers' catalogs, published specifications, datasheets and technical manuals for the same type of product. Use these sources to understand terminology, standard configurations, selection criteria and typical requirements. Check their relevance to the requested product and service conditions. Comparable products do not prove interchangeability or compliance, and generic practice must not override explicit requirements. Distinguish documented facts from inference.
 
-Customer questions are permitted only for genuine gaps, ambiguities or conflicts that remain after this review and materially affect the proposal or quotation, such as scope, technical compliance, selection, price, delivery or contractual commitments. Do not ask irrelevant questions or request detail that can wait without affecting the offer. Keep such unknowns internal.
+Resolve questions independently when the documents, applicable standards or established engineering knowledge provide the answer. Do not ask others to repeat stated facts or explain basics that this research can establish. Unfamiliarity with a product or technology is a reason to research it before asking.
 
-Before including any customer question, identify the relevant document version and clause, drawing or page reviewed, explain what remains unresolved, and state how the answer changes the offer. Remove questions answered by the documents or established engineering practice. If a needed document is missing or unreadable, identify that limitation; request it only when it materially affects the offer. This rule applies to draft clarification lists as well as messages intended for sending.
+Ask only about genuine gaps, ambiguities or conflicts that remain after this review and materially affect the work, such as correctness, scope, compliance, selection, price, delivery or commitments. Keep details that can wait without affecting the current decision as internal unknowns.
+
+Before including a question or concern, identify the sources reviewed (document version and page or clause, or manufacturer and source URL), explain what remains unresolved, and state how the answer changes the decision or deliverable. Remove questions already answered by the sources. If a necessary source is missing, unreadable or inaccessible, identify that limitation and request it only when it materially affects the work; do not invent its contents or claim to have reviewed it. Apply this check to draft question lists as well as messages intended for sending.
 
 ## Set up the working method
 
@@ -51,10 +53,10 @@ Add a separate register only when recurring work no longer fits clearly in the g
 
 ## Support later sessions
 
-Write compact, project-specific versions of these rules into AGENTS.md, including the record-maintenance rules. Adapt them instead of copying whole skill sections:
+Write compact, project-specific versions of these rules into AGENTS.md, including the technical-research rule and record-maintenance rules. Adapt them instead of copying whole skill sections:
 
 - Start with the guide; read only the source sections and log entries needed for the task. Link consequential decisions to the relevant log entry.
-- Before proposals or clarifications, read and reconcile customer documents and verify applicable standards/editions. Ask only unresolved, offer-affecting questions; identify the source version/page reviewed and how the answer changes the offer. Do not override explicit requirements with assumed practice or present uncertain interpretations as fact.
+- For all technical work, research before making technical claims or raising questions, including internal drafts. Read project/customer documents, applicable standards and editions, and, for products, online manufacturers' catalogs and specifications for comparable products. Resolve what these sources answer independently. Ask only remaining questions that materially affect the work; identify the sources reviewed, the unresolved point and its effect on the decision. Do not use comparable products to override explicit requirements or present an uncertain interpretation as fact.
 - Keep the guide current: basis, status, locations and next actions. Keep one maintained action list there and link to detail instead of duplicating it.
 - Log only material events and decisions, normally in 1-3 sentences. Combine edits within one event while preserving separate communications and decision changes. Skip routine operations, checks, cosmetic edits and repeated disclaimers.
 - When decisions change, update authorized outputs and identify remaining work. Preserve received and issued originals; keep assumptions and partial answers distinct from confirmed requirements.
@@ -64,4 +66,4 @@ Preparing, sending, acknowledging and accepting are distinct. Keep internal mate
 
 ## Check the handoff
 
-Verify facts, links and preservation of existing material. Confirm that a fresh reader can find the next action, evidence and governing rule, and that AGENTS.md carries the compact-record maintenance rules. Remove duplicated maintained information, stale status, operational narration and unsupported claims. Report locations and material unresolved matters briefly; do not reproduce the records.
+Verify facts, links and preservation of existing material. Confirm that a fresh reader can find the next action, evidence and governing rule, and that AGENTS.md carries the technical-research and compact-record maintenance rules, including online manufacturer references and the limits on technical questions. Remove duplicated maintained information, stale status, operational narration and unsupported claims. Report locations and material unresolved matters briefly; do not reproduce the records.
