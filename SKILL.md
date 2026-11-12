@@ -31,30 +31,37 @@ The contracts below are sufficient for ordinary projects. Read only relevant sec
 
 ## Write compact records
 
-Use the user's working language. These are content contracts, not mandatory headings. Keep a short paragraph or list when it conveys the necessary information. Omit empty sections and general advice that adds no project-specific instruction.
+Write in the user's working language. Keep only information that affects the next action, scope, price, authority, commitments or interpretation. Use short paragraphs or bullets; omit empty sections and generic advice.
 
 | Record | Owns |
 |---|---|
-| **AGENTS.md** | A brief project identity, user role, outcome and consequential boundaries; project-specific operating and maintenance rules. Link to the guide and log. Keep changing status, file inventories and individual issues elsewhere. |
-| **Project Guide.md** | Current position and updated date, useful folder/file links, selected working basis and its limits, relevant outputs and immediate actions or blockers. Identify requested versus agreed dates, and draft versus sent outputs. It is the current-state entry point, not a full inventory. |
-| **Document Log.md** | Dated material events and decisions, their reasons, effects and stable evidence/version references. Use searchable date-and-topic headings, newest first unless an existing order works. The opening entry records setup and consequential initial choices; do not copy the guide's background or action list. |
+| **AGENTS.md** | Project identity, role, outcome, boundaries and enduring operating rules. Link to the guide and log; exclude changing status and file inventories. |
+| **Project Guide.md** | Current status and date, selected basis and limits, useful file links and immediate actions or blockers. Mark requested versus agreed dates and draft versus sent outputs. Replace stale status; keep history in the log. |
+| **Document Log.md** | Material events and decisions under searchable date-and-topic headings, newest first unless an existing order works. Normally use 1-3 sentences per event: what changed, its consequence or reason when needed, and an evidence/version link. Expand only for facts needed for correct follow-up. |
 
-Preserve facts that affect action, scope, authority or interpretation. Distinguish verified evidence, user reports, provisional choices and unknowns. Cite source files and exact versions instead of copying their contents. Do not invent details to fill a section. Expected files are described as awaited, not linked as existing evidence. Label retrospective history with its known event date and recording date.
+Log consequential scope or price changes, decisions, external transmissions, material incoming evidence and blockers. Routine reads, tool calls, formatting, validation, file housekeeping and successive unissued draft edits do not need entries unless they change the working basis, commitments or ability to deliver.
 
-Preserve useful existing instructions and historical meaning. Raise material conflicts instead of selecting by modification time. Add a separate register only when recurring work can no longer be handled clearly in the guide; give it one purpose and a maintenance rule.
+Combine iterations of the same event. Preserve distinct communications, issued versions and decision reversals. Record only consequential initial setup choices, not the setup process.
+
+Maintain each table, action list or specification in one place and link to it. In the log, record the change rather than restating the guide. State uncertainty once, where it affects a decision; omit generic missing-evidence disclaimers and unavailable metadata that does not affect the work.
+
+Preserve useful existing instructions and historical meaning. Distinguish verified evidence, user reports, provisional choices and unknowns; do not invent missing facts. Link exact source versions instead of copying their contents. Describe expected files as awaited, and distinguish retrospective recording dates from known event dates. Raise material conflicts rather than selecting by modification time.
+
+Add a separate register only when recurring work no longer fits clearly in the guide; give it one purpose and a maintenance rule.
 
 ## Support later sessions
 
-Put these concise maintenance rules in AGENTS.md, adapted to the actual project:
+Write compact, project-specific versions of these rules into AGENTS.md, including the record-maintenance rules. Adapt them instead of copying whole skill sections:
 
-- When customer technical documents are involved, include the specification-review and customer-question restrictions above as enduring project rules in AGENTS.md so later sessions apply them before drafting proposals, quotations or clarifications.
-- Start with the guide; read relevant source sections and log entries only when the task needs them. Link consequential current decisions to their log headings. Do not routinely load the entire diary or archive.
-- After material developments, update affected working records, append a short event entry and refresh the guide only if the current basis, location, status or next action changed. Keep the maintained action list in the guide. Routine reading and formatting need no entry.
-- Track consequences of changed decisions: update authorized outputs and identify remaining affected work. Preserve received and issued originals. Keep partial answers and assumptions distinct from resolved requirements or agreement.
-- Change AGENTS.md only when enduring scope, responsibilities or working rules change. Edit affected sections; do not reproduce whole documents in chat.
+- Start with the guide; read only the source sections and log entries needed for the task. Link consequential decisions to the relevant log entry.
+- Before proposals or clarifications, read and reconcile customer documents and verify applicable standards/editions. Ask only unresolved, offer-affecting questions; identify the source version/page reviewed and how the answer changes the offer. Do not override explicit requirements with assumed practice or present uncertain interpretations as fact.
+- Keep the guide current: basis, status, locations and next actions. Keep one maintained action list there and link to detail instead of duplicating it.
+- Log only material events and decisions, normally in 1-3 sentences. Combine edits within one event while preserving separate communications and decision changes. Skip routine operations, checks, cosmetic edits and repeated disclaimers.
+- When decisions change, update authorized outputs and identify remaining work. Preserve received and issued originals; keep assumptions and partial answers distinct from confirmed requirements.
+- Change AGENTS.md only for enduring scope, responsibilities or working rules. Edit affected sections; keep chat reports brief.
 
 Preparing, sending, acknowledging and accepting are distinct. Keep internal material out of recipient copies when relevant. Setup does not authorize external commitments, Git, services or automation; use the user's existing authority and instructions.
 
 ## Check the handoff
 
-Verify facts and links, preservation of existing material, and one realistic retrieval: can a fresh reader locate the next action, applicable evidence and governing rule? Check for duplicated maintained information and unsupported claims. Report the location, created or updated records and material unresolved matters briefly; do not reproduce their contents.
+Verify facts, links and preservation of existing material. Confirm that a fresh reader can find the next action, evidence and governing rule, and that AGENTS.md carries the compact-record maintenance rules. Remove duplicated maintained information, stale status, operational narration and unsupported claims. Report locations and material unresolved matters briefly; do not reproduce the records.
